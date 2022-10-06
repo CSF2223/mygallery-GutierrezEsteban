@@ -1,10 +1,12 @@
 /*
 Color Palette:
-background color:  865439
-font color:        C68B59
-secondary color:   FCDEC0
-tertiary color:    8FC1D4
+background color:  #865439
+font color:        #C68B59
+secondary color:   #FCDEC0
+tertiary color:    #8FC1D4
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap');
 
 html {
     font-size: 62.5%;     /* Default font size is 16px - 62.5% of 16 is 10px -
@@ -12,23 +14,27 @@ html {
 }
 
 header {
-    margin: 0 4rem;
-    letter-spacing: 0.8rem;
+    margin: 0 40rem;
+    letter-spacing: 0.4rem;
     text-align: center;
-    border-bottom:  1px solid #826F66;
-    border-right: 1px solid #826F66;
-    border-left: 1px solid #826F66;
+    border-bottom:  8px solid #8FC1D4;
+    border-right: 8px solid #8FC1D4;
+    border-left: 8px solid #8FC1D4;
     padding: 0.5rem;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 4rem;
 }
 
 body {
-    background-color: #3A3845;
-    color: #F7CCAC;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #865439;
+    color: #C68B59;
+    font-family: 'Oswald', sans-serif;
     margin: 0;
+    border-top:;
+    border-right:;
+    border-left:;
+    border-bottom:;
 }
 
 cite {
@@ -51,12 +57,12 @@ p {
     width: 100%;
     height: auto;
     border-radius: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .imageCard a {
    text-decoration: none;
-   color: #826F66;
+   color: #8FC1D4;
 }
 
 .cardText {
@@ -86,3 +92,8 @@ p {
     
     
 }
+
+    img:hover {
+        transform: scaleX(-1);
+    }
+    
