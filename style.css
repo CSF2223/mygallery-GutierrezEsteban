@@ -17,13 +17,13 @@ header {
     margin: 0 40rem;
     letter-spacing: 0.4rem;
     text-align: center;
-    border-bottom:  8px solid #8FC1D4;
-    border-right: 8px solid #8FC1D4;
-    border-left: 8px solid #8FC1D4;
+    border-bottom:  0px solid #8FC1D4;
+    border-right: 0px solid #8FC1D4;
+    border-left: 0px solid #8FC1D4;
     padding: 0.5rem;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 body {
@@ -34,7 +34,8 @@ body {
     border-top:8px solid #8FC1D4;
     border-right:8px solid #8FC1D4;
     border-left:8px solid #8FC1D4;
-    border-bottom:8px solid #8FC1D4;
+    border-bottom:50px solid #333;
+    background-image: linear-gradient(#8FC1D4, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #865439, #8FC1D4);
 }
 
 cite {
@@ -51,12 +52,13 @@ p {
     justify-content: center;
     align-items: center;
     margin: 7rem 4rem;
+
 }
 
 .imageCard img {
     width: 100%;
     height: auto;
-    border-radius: 30px;
+    border-radius: 200px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
@@ -70,6 +72,10 @@ p {
     text-align: center;
     padding: 2rem;
     border-radius: 30px;
+    border-top:4px solid #8FC1D4;
+    border-right:4px solid #8FC1D4;
+    border-left:4px solid #8FC1D4;
+    border-bottom:4px solid #8FC1D4;
     margin-top: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19)
 }
@@ -94,9 +100,12 @@ p {
 }
 
     img:hover {
-        transform: scaleX(-1);
+        
+        transform: rotate(180deg);
+        
     }
     
+   
     
   ul {
   list-style-type: none;
